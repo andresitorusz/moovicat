@@ -14,6 +14,9 @@ Making a simple movie catalog.
     <img src="screenshots/details.png" alt="Splashscreen" width="216" height="456">
   </a>
 </p>
+<p align="left">
+  I make the logo on Splashscreen for free at [FreeLogoDesign](https://www.freelogodesign.org/)
+</p>
 
 
 <!-- CONTACT -->
