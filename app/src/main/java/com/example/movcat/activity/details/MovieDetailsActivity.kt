@@ -1,8 +1,8 @@
 package com.example.movcat.activity.details
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -15,9 +15,9 @@ import com.example.movcat.data.api.TheMovieDBInterface
 import com.example.movcat.data.repository.NetworkState
 import com.example.movcat.data.repository.details.MovieDetailsRepository
 import com.example.movcat.data.vo.MovieDetails
+import kotlinx.android.synthetic.main.activity_details.*
 import java.text.NumberFormat
 import java.util.*
-import kotlinx.android.synthetic.main.activity_details.*
 
 class MovieDetailsActivity : AppCompatActivity() {
 
@@ -26,6 +26,11 @@ class MovieDetailsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) { }
+
         setContentView(R.layout.activity_details)
 
         val movieId: Int = intent.getIntExtra("id", 1)

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".activity.details.MovieDetailsActivity">
 
     <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -53,7 +54,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/movie_title"
-                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:textSize="36sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -61,14 +63,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/movie_release_date"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
 
                     <TextView
                         android:id="@+id/tv_movie_rating"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/movie_rating"
+                        android:textColor="@color/colorAccent"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -77,8 +81,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/movie_overview"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textStyle="normal" />
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

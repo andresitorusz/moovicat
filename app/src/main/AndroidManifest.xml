@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovCat">
         <activity android:name=".activity.details.MovieDetailsActivity" />
-        <activity android:name=".activity.main.MainActivity">
+        <activity android:name=".activity.main.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
