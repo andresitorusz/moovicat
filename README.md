@@ -15,7 +15,7 @@ Making a simple movie catalog.
   </a>
 </p>
 <p align="left">
-  I make the logo on Splashscreen for free at [FreeLogoDesign](https://www.freelogodesign.org/)
+  I make the logo on Splashscreen for free at https://www.freelogodesign.org
 </p>
 
 
