@@ -7,13 +7,9 @@ Making a simple movie catalog.
   <a href="https://github.com/andresitorusz/movCat">
     <img src="screenshots/splashscreen.png" alt="Splashscreen" width="80" height="80">
   </a>
-</p>
-<p align="center">
   <a href="https://github.com/andresitorusz/movCat">
     <img src="screenshots/splashscreen.png" alt="Splashscreen" width="80" height="80">
   </a>
-</p>
-<p align="right">
   <a href="https://github.com/andresitorusz/movCat">
     <img src="screenshots/splashscreen.png" alt="Splashscreen" width="80" height="80">
   </a>
