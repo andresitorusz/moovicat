@@ -3,7 +3,7 @@
 Making a simple movie catalog.
 
 ## Screenshots
-<p align="left">
+<p align="center">
   <a href="https://github.com/andresitorusz/movCat">
     <img src="screenshots/splashscreen.png" alt="Splashscreen" width="216" height="456">
   </a>
