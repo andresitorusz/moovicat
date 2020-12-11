@@ -5,13 +5,13 @@ Making a simple movie catalog.
 ## Screenshots
 <p align="left">
   <a href="https://github.com/andresitorusz/movCat">
-    <img src="screenshots/splashscreen.png" alt="Splashscreen" width="80" height="80">
+    <img src="screenshots/splashscreen.png" alt="Splashscreen" width="1920" height="1080">
   </a>
   <a href="https://github.com/andresitorusz/movCat">
-    <img src="screenshots/splashscreen.png" alt="Splashscreen" width="80" height="80">
+    <img src="screenshots/main.png" alt="Splashscreen" width="1920" height="1080">
   </a>
   <a href="https://github.com/andresitorusz/movCat">
-    <img src="screenshots/splashscreen.png" alt="Splashscreen" width="80" height="80">
+    <img src="screenshots/details.png" alt="Splashscreen" width="1920" height="1080">
   </a>
 </p>
 
