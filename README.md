@@ -19,6 +19,6 @@ Making a simple movie catalog.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@andresitorusz](https://twitter.com/andresitorus) - andre.sitorus16@gmail.com
+Andre Yehuda Sitorus - [@andresitorusz](https://twitter.com/andresitorus) - andre.sitorus16@gmail.com
 
 Project Link: [https://github.com/andresitorusz/movCat](https://github.com/andresitorusz/movCat)
