@@ -11,7 +11,7 @@ import com.example.movcat.data.api.TheMovieDBInterface
 import com.example.movcat.data.vo.Movie
 import io.reactivex.disposables.CompositeDisposable
 
-class MoviePagedListRepository (private val apiService : TheMovieDBInterface) {
+class MovieRepository (private val apiService : TheMovieDBInterface) {
 
     lateinit var moviePagedList : LiveData<PagedList<Movie>>
     lateinit var moviesDataSourceFactory: MovieDataSourceFactory

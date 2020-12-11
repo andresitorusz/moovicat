@@ -11,24 +11,24 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.movcat.R
 import com.example.movcat.data.api.TheMovieDBClient
 import com.example.movcat.data.api.TheMovieDBInterface
-import com.example.movcat.data.repository.MoviePagedListAdapter
-import com.example.movcat.data.repository.MoviePagedListRepository
+import com.example.movcat.data.repository.MovieAdapter
+import com.example.movcat.data.repository.MovieRepository
 import com.example.movcat.data.repository.NetworkState
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var viewModel: MovieViewModel
-    lateinit var movieRepository: MoviePagedListRepository
+    lateinit var movieRepository: MovieRepository
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         val apiService : TheMovieDBInterface = TheMovieDBClient.getClient()
-        movieRepository = MoviePagedListRepository(apiService)
+        movieRepository = MovieRepository(apiService)
         viewModel = getViewModel()
-        val movieAdapter = MoviePagedListAdapter(this)
+        val movieAdapter = MovieAdapter(this)
 
         val layoutManager = LinearLayoutManager(
             this,

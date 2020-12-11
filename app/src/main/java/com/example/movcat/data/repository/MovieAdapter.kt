@@ -2,7 +2,6 @@ package com.example.movcat.data.repository
 
 import android.content.Context
 import android.content.Intent
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,7 +17,7 @@ import io.reactivex.annotations.NonNull
 import kotlinx.android.synthetic.main.item_movie.view.*
 import kotlinx.android.synthetic.main.networks_state_item.view.*
 
-class MoviePagedListAdapter (public val context: Context) : PagedListAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
+class MovieAdapter (public val context: Context) : PagedListAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
 
     val MOVIE_VIEW_TYPE = 1
     val NETWORK_VIEW_TYPE = 2
@@ -75,9 +74,14 @@ class MoviePagedListAdapter (public val context: Context) : PagedListAdapter<Mov
 
     class MovieItemViewViewHolder (view: View) : RecyclerView.ViewHolder(view) {
         fun bind(movie: Movie?, context: Context) {
+
+            itemView.item_movie_overview.maxLines = 7
+
             itemView.item_movie_title.text = movie?.title
             itemView.item_movie_release.text = movie?.releaseDate
             itemView.item_movie_overview.text = movie?.overview
+
+
 
             val moviePosterURL = POSTER_BASE_URL + movie?.posterPath
             Glide.with(itemView.context)
