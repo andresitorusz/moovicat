@@ -22,6 +22,6 @@ Making a simple movie catalog.
 <!-- CONTACT -->
 ## Contact
 
-Andre - [@andresitorusz](https://twitter.com/andresitorusz) - andresitorusz.19@gmail.com
+Andre - [@enchant3dmango](https://twitter.com/enchant3dmango)
 
 Project Link: [https://github.com/andresitorusz/moovicat](https://github.com/andresitorusz/mooviecat)
